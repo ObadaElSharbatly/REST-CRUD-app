@@ -7,12 +7,14 @@ export const router = express.Router();
 
 // get all books
 router.get('/', getAllBooks )
+router.get('/:name', getAllBooks )
 
 // add a book
 router.post('/add-book', creatBook )
 
 // modify a book
-router.put('/add-book/:name', modifyBook )
+router.put('/modify-book/', modifyBook )
+router.put('/modify-book/:name', modifyBook )
 
 // // delete a book
 // router.post('/add-book', deleteBook )

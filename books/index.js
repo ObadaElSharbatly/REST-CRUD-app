@@ -7,7 +7,8 @@ app.use(express.json())
 
 app.use(express.static("./public"))
 
-app.get('/', (req,res)=> res.send('<h1>Hello this is the book app</h1>'))
+
+// to access books api
 app.use('/books', router);
 
 const port = process.env.PORT || 5000 ;

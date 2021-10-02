@@ -1,30 +1,7 @@
 export const allBooks = [
-    {
-        name: "hello1",
-        author: "Wael",
-        barcode: "1234-5678",
-        store: "Garir library",
-        readed: false
-    },
-    {
-        name: "hello2",
-        author: "Wael",
-        barcode: "4524-2323",
-        store: "Garir library",
-        readed: false
-    },
-    {
-        name: "hello3",
-        author: "Wael",
-        barcode: "9843-6523",
-        store: "Garir library",
-        readed: false
-    },
-    {
-        name: "hello4",
-        author: "Wael",
-        barcode: "3564-9847",
-        store: "Garir library",
-        readed: false
-    },
+
+{"name":"HTML","author":"unknown","barcode":"7759-5547","store":"unknown","read":true},
+{"name":"CSS","author":"unknown","barcode":"1331-7172","store":"unknown","read":true},
+{"name":"JS","author":"unknown","barcode":"5066-6631","store":"unknown","read":true},
+{"name":"Node.js","author":"unknown","barcode":"4122-3550","store":"unknown","read":true},
 ]
